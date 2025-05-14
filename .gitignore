@@ -1,2 +1,21 @@
+# Ignora el archivo de variables de entorno
 .env
-.venv
+
+# Ignora archivos y carpetas temporales
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+
+# Ignora entornos virtuales
+venv/
+env/
+.venv/
+.env/
+
+# Ignora archivos temporales de Streamlit
+.streamlit/config.toml
